@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-<title>班花，嫁给我吧 ♥</title>
+<title>小霞，这些话我想说给你听 ♥</title>
 <style>
   *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
   html,body{height:100%;overflow:hidden;background:radial-gradient(circle at 50% 42%,#2b0b29 0%,#12041a 46%,#06020b 100%)}
@@ -121,19 +121,19 @@
 <canvas id="stage"></canvas>
 
 <div class="layer">
-  <div class="top"><span>致 我 心 中 最 美 的 班 花</span><i></i></div>
+  <div class="top"><span>写 给 心 里 最 好 的 小 霞</span><i></i></div>
   <div class="sub">
-    <div class="en">Will you marry me?</div>
-    <div class="cn">余 生 漫 长 · 想 与 你 共 度</div>
+    <div class="en">Since I met you, every day has a little light in it.</div>
+    <div class="cn">遇 见 你 之 后 · 每 天 都 有 了 期 待</div>
   </div>
-  <div class="btnwrap"><button class="btn" id="btnYes">我 愿 意 ♥</button></div>
+  <div class="btnwrap"><button class="btn" id="btnYes">我 也 喜 欢 你 ♥</button></div>
 </div>
 
 <div class="flash" id="flash"></div>
 
 <div class="final" id="final">
-  <h2>太好啦，我娶到你啦！</h2>
-  <div class="line"><b></b><p>从 此 余 生 · 请 多 指 教</p><b></b></div>
+  <h2>太好啦，那我们就在一起吧！</h2>
+  <div class="line"><b></b><p>往 后 的 每 个 明 天 · 都 想 有 你</p><b></b></div>
 </div>
 
 <div class="music" id="music" title="播放浪漫音乐">♪</div>
@@ -268,7 +268,7 @@
 
   function buildTextPoints(){
     var portrait = H > W * 1.02;
-    var lines = portrait ? ['班花', '嫁给我吧'] : ['班花嫁给我吧'];
+    var lines = portrait ? ['小霞', '我爱你'] : ['小霞我爱你'];
     var maxChars = 1;
     for (var i = 0; i < lines.length; i++) maxChars = Math.max(maxChars, lines[i].length);
 
